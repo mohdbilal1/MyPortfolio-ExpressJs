@@ -1,0 +1,18 @@
+.img-fluid{
+    width: 200px;
+    height: 140px;
+    border: 1.7px solid rgb(33, 36, 223);
+    margin-right: 30px;
+    border-radius: 5px;
+    padding: 2rem 4rem;
+    box-shadow:4px 5px 4px 3px rgba(89,4,168,.137); 
+    margin-top: 30px;
+    transition: all .4s ease 0s;
+}
+.img-fluid:hover{
+    transform: scale(1.1);
+    opacity: 0.93s;
+    overflow: hidden;
+    cursor: pointer;
+
+}

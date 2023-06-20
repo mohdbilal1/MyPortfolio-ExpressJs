@@ -1,0 +1,14 @@
+.skills{
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    border: 1.7px solid rgb(44, 47, 255);
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 15px 5px;
+    box-shadow:4px 5px 4px 3px rgba(89,4,168,.137); 
+    margin-top: 30px;
+    transition: all .4s ease 0s;
+    font-weight: bold;
+
+}
