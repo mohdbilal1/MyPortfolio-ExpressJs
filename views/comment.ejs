@@ -4,7 +4,7 @@
 
     <div style="margin-top: 100px;display: flex;">
       <div class="col-6 col-sm-5 p-sm-1 p-md-1 m-3 p-3 p-sm-md-1 m-sm-md-1">
-        <section style=" margin-left: 35px;" class="d-none d-sm-block "> 
+        <section style=" margin-left: 35px;" class="d-none d-sm-block ">
           <div class="container text-dark">
             <div class="row d-flex justify-content-center">
               <div class="">
@@ -14,13 +14,13 @@
                     <div class="d-flex flex-start w-100">
                       <img class="rounded-circle shadow-1-strong me-3" src="/images/avatar.svg" alt="avatar" width="25"
                         height="35" />
-                       
+
                       <div class="w-100">
 
                         <form method="post">
-                          
+
                           <div class="form-outline">
-                            <input type="text" name="name" placeholder="your name"  class="form-control mb-1">
+                            <input type="text" name="name" placeholder="your name" class="form-control mb-1">
                             <textarea name="textarea" class="form-control" id="textAreaExample" rows="4"
                               placeholder="comment..."></textarea>
                           </div>
@@ -45,7 +45,7 @@
         </section>
 
         <!-- for mobile size  -->
-        <section style=" margin-left: 35px;" class="d-block  d-sm-none"> 
+        <section style=" margin-left: 35px;" class="d-block  d-sm-none">
           <div class="container text-dark">
             <div class="row d-flex justify-content-center">
               <div class="">
@@ -53,13 +53,13 @@
                 <div class="card">
                   <div class="card-body p-2">
                     <div class="d-flex flex-start w-100">
-                      
+
                       <div class="w-100">
 
                         <form method="post">
-                          
+
                           <div class="form-outline">
-                            <input type="text" name="name" placeholder="name"  class="form-control mb-1">
+                            <input type="text" name="name" placeholder="name" class="form-control mb-1">
                             <textarea name="textarea" class="form-control" id="textAreaExample" rows="4"
                               placeholder="comment"></textarea>
                           </div>
@@ -83,11 +83,11 @@
           </div>
         </section>
 
-        
+
       </div>
 
-       <!-- read daocument -->
-       
+      <!-- read daocument -->
+
       <div class="col-sm-6 m-3 p-3 col-6 col-sm-5 p-sm-1 p-md-1 m-3 p-3 p-sm-md-1 m-sm-md-1 d-none d-sm-block">
         <h2 class="text-white fs-2 mb-3 p-3 bg-success rounded"> View Comments</h2>
         <div id="scrollable">
@@ -95,63 +95,58 @@
             <tbody>
               <% data.forEach((items)=>{ %>
                 <tr>
-                    <td class="text-danger fw-bold w-25">
-                      <%= items.name  %> : 
-                    </td>
-                    <td>
-                        <%= items.textarea %>
-                    </td>
-                    <td>
-                      <form action="/comment/<%- items._id%>" class="d-inline">
-                        <button class="btn">
-                            <i class="fa fa-trash text-danger" aria-hidden="true"></i>
-                        </button>
+                  <td class="text-danger fw-bold w-25">
+                    <%= items.name %> :
+                  </td>
+                  <td>
+                    <%= items.textarea %>
+                  </td>
+                  <td>
+                    <form action="/comment/<%- items._id%>" class="d-inline">
+                      <button class="btn">
+                        <i class="fa fa-trash text-danger" aria-hidden="true"></i>
+                      </button>
                     </form>
-                    </td>
-                  </tr>
-                  <% }) %>  
+                  </td>
+                </tr>
+                <% }) %>
             </tbody>
           </table>
         </div>
       </div>
 
       <!-- for mobile size -->
-<<<<<<< HEAD
+
       <div class="col-sm-6 m-3 me-sm-5 p-3 col-6 col-sm-5 p-sm-1 p-md-1 m-3 p-3 p-sm-md-1 m-sm-md-1 d-block d-sm-none">
         <h6 class="text-white mb-3 p-3 bg-success rounded"> View Comments</h6>
-=======
-      <div class="col-sm-6 m-3 p-3 col-6 col-sm-5 p-sm-1 p-md-1 m-3 p-3 p-sm-md-1 m-sm-md-1 d-block  d-sm-none">
-        <h6 class="text-white mb-3 p-2 bg-success rounded"> View Comments</h6>
->>>>>>> 981e5c9871729a897f0c100f9a657cd89f9d9d11
-        <div id="scrollable">
-          <table class="table table-hover rows-6">
-            <tbody>
-              <% data.forEach((items)=>{ %>
-                <tr>
+
+        <div class="col-sm-6 m-3 p-3 col-6 col-sm-5 p-sm-1 p-md-1 m-3 p-3 p-sm-md-1 m-sm-md-1 d-block  d-sm-none">
+          <h6 class="text-white mb-3 p-2 bg-success rounded"> View Comments</h6>
+
+          <div id="scrollable">
+            <table class="table table-hover rows-6">
+              <tbody>
+                <% data.forEach((items)=>{ %>
+                  <tr>
                     <td class="text-danger fw-bold w-25">
-                      <%= items.name  %> : 
+                      <%= items.name %> :
                     </td>
                     <td>
-                        <%= items.textarea %>
+                      <%= items.textarea %>
                     </td>
                     <td>
                       <form action="/comment/<%- items._id%>" class="d-inline">
                         <button class="btn">
-                            <i class="fa fa-trash text-danger" aria-hidden="true"></i>
+                          <i class="fa fa-trash text-danger" aria-hidden="true"></i>
                         </button>
-                    </form>
+                      </form>
                     </td>
                   </tr>
-                  <% }) %>  
-            </tbody>
-          </table>
+                  <% }) %>
+              </tbody>
+            </table>
+          </div>
         </div>
+
+
       </div>
-
-
-    </div>
-
-
-
-
-    
