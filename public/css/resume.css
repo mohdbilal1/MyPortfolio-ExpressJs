@@ -12,3 +12,65 @@
     font-weight: bold;
 
 }
+
+@media only screen and (max-width:600px) {
+    .resumeclass{
+        margin: 2px;
+    }
+    .resumeclass2{
+        padding: 0;
+        margin: 2px;
+        width: 550px;
+         
+     }
+    .resumeclass3{
+       padding: 0;
+       margin: 2px;
+       width: 550px;
+       
+        
+    }
+  } 
+
+  @media only screen and (max-width:800px) {
+    .resumeclass{
+        margin: 2px;
+        padding: 0;
+    }
+    .resumeclass2{
+        padding: 0;
+        margin: 0;
+        width: 600px;
+         
+     }
+    .resumeclass3{
+       padding: 0;
+       margin: 0;
+       width: 600px;
+       
+        
+    }
+  } 
+  @media only screen and (max-width:600px) {
+    .resume-img{
+        margin-right: 0;
+        padding: 0 0 60px 0;
+        
+    }
+    .resume-img1{
+        margin-top: 220px; 
+        margin-right: 0;
+        padding-right: 0; 
+        padding: 0; 
+    }
+    .resume-img1 h1{
+        width: 250px;  
+        
+    
+    }
+    .resume-img2 img{
+        margin: 0 50px 0 2px;
+        padding: 0;
+        
+    }
+}
