@@ -1,58 +1,65 @@
-<nav class="d-flex   bg-light fixed-top container-fluid p-3 " , style="height: auto;">
-  <img src="/images/logo.png" alt="image-logo" style="width: 50px; height: 50px; margin-left: 10px; margin-top: 5px;">
-  <a class="ms-2 fs-3 fa-sharp fw-bolder fst-italic text-primary text-decoration-none mt-3"
-    style="text-shadow: 2px 1px rgb(150, 142, 142);" href="/">
-    <b>mB.dev</b>
-  </a>
+<nav class="nav-class d-flex fixed-top p-3 " , style="height: auto; background-color:#a7acff;">
+  <div class="d-flex" style="height: auto; background-color:#a7acff;">
+    <img src="/images/logo.png" alt="image-logo" style="width: 50px; height: 50px; margin-left: 10px; margin-top: 5px;">
+    <a class="ms-2 fs-3 fa-sharp fw-bolder fst-italic text-decoration-none mt-3"
+      style="text-shadow: 2px 1px rgb(59, 58, 58);color: #ffff;" href="/">mB.dev
+    </a>
+  </div>
 
   <div class=" navlist d-none d-sm-block" style="padding-left: 400px" id="navbarSupportedContent">
-    <ul class=" d-flex flex-lg-row pt-2" style=" text-shadow: 2px 1px rgb(150, 142, 142);">
+    <ul class=" d-flex flex-lg-row pt-2" style=" text-shadow: 2px 1px rgb(59, 58, 58); color: white;">
       <li class="  d-flex me-5 p-1">
-        <a class=" fs-4  text-decoration-none " href="/">Home</a>
+        <a class=" fs-4 nav-link  text-decoration-none " href="/">Home</a>
       </li>
       <li class=" d-flex  me-5  p-1">
-        <a class=" fs-4 text-decoration-none" href="/about">About</a>
+        <a class=" fs-4 nav-link text-decoration-none" href="/about">About</a>
       </li>
 
       <li class=" d-flex  me-5  p-1">
-        <a class=" fs-4 text-decoration-none" href="/project">Project</a>
+        <a class=" fs-4 nav-link text-decoration-none" href="/project">Project</a>
       </li>
       <li class=" d-flex  me-5  p-1">
-        <a class=" fs-4 text-decoration-none" href="/resume">Resume</a>
+        <a class=" fs-4 nav-link text-decoration-none" href="/resume">Resume</a>
       </li>
       <li class=" d-flex me-5  p-1">
-        <a class=" fs-4 text-decoration-none" href="/comment">Comment</a>
-
-        <nav style="background-color: #e0dddd;" class="navbar navbar-expand-sm fixed-top">
-          <img src="/images/logo.png" alt="image-logo" style="width: 40px; height: 40px; margin-left: 10px;">
-          <a class="navbar-brand ms-2 fs-3 fa-sharp fw-bolder fst-italic text-primary"
-            style="text-shadow: 2px 1px rgb(150, 142, 142);" href="/">mB.dev
-          </a>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav" style="padding-left:400px;text-shadow: 2px 1px rgb(150, 142, 142);">
-              <li class="nav-item active d-flex me-5 me-md-3 me-sm-2 p-1">
-                <a class="nav-link fs-4" href="/">Home</a>
-              </li>
-              <li class="nav-item d-flex  me-5 me-md-3 me-sm-2  p-1">
-                <a class="nav-link fs-4" href="/about">About</a>
-              </li>
-
-              <li class="nav-item d-flex  me-5 me-md-3 me-sm-2  p-1">
-                <a class="nav-link fs-4" href="/project">Project</a>
-              </li>
-              <li class="nav-item d-flex  me-5 me-md-3 me-sm-2  p-1">
-                <a class="nav-link fs-4" href="/resume">Resume</a>
-              </li>
-              <li class="nav-item d-flex me-5 me-md-3 me-sm-2  p-1">
-                <a class="nav-link fs-4" href="/comment">Comment</a>
-              </li>
-            </ul>
-        </nav>
+        <a class=" fs-4 nav-link text-decoration-none" href="/comment">Comment</a>
       </li>
 
     </ul>
 
 
   </div>
+</nav>
+
+  <!--show only mobile size  -->
+<nav style='background-color:#a7acff; width: 180px; height: 100vh;' class=" nav-class d-sm-none d-lg-none d-xl-none 
+   d-xxl-none  fixed-top">
+  <div class="d-flex mt-3 ms-3 " style="height: auto;">
+    <img src="/images/logo.png" alt="image-logo" style="width: 50px; height: 50px; margin-left: 10px; margin-top: 5px;">
+    <a class="ms-2 fs-3 fa-sharp fw-bolder fst-italic text-decoration-none mt-3"
+      style="text-shadow: 2px 1px rgb(59, 58, 58);color: #ffff;" href="/">mB.dev
+    </a>
+  </div>
+  <hr/>
+
+
+  <div class="d-sm-none d-lg-none d-xl-none d-xxl-none ">
+    <ul class="mobile-ul" style="padding-left:7px;text-shadow: 2px 1px rgb(150, 142, 142);">
+      <p class=" m-2 p-1">
+        <a class="nav-link fs-4 text-center" href="/">Home</a>
+      </p>
+      <p class=" m-2 p-1 ">
+        <a class="nav-link fs-4 text-center" href="/about">About</a>
+      </p>
+
+      <p class=" m-2 p-1 ">
+        <a class="nav-link fs-4 text-center" href="/project">Project</a>
+      </p>
+      <p class=" m-2 p-1 ">
+        <a class="nav-link fs-4 text-center" href="/resume">Resume</a>
+      </p>
+      <p class="  m-2 p-1 ">
+        <a class="nav-link fs-4 text-center" href="/comment">Comment</a>
+      </p>
+    </ul>
 </nav>

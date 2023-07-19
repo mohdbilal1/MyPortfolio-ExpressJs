@@ -1,10 +1,13 @@
 .nav-link{
-    color: rgb(1, 123, 222);
+    color: white;
 }
 .nav-link:hover{
     background: rgb(83, 83, 249);
     border-radius: 5px;
     color: white;  
+}
+.mobile-ul li a{
+  text-decoration: none;
 }
 
 
@@ -34,7 +37,7 @@
     }
   } 
   
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  /* @media only screen and (min-width: 1200px) {
-    .example {background: pink;}
-  } */
+  /* (small and up) */
+  @media only screen and (min-width: 576px) {
+    .nav-class {background-color: white;}
+  }
