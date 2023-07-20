@@ -16,3 +16,13 @@
     cursor: pointer;
 
 }
+
+@media only screen and (max-width:768px) {
+    .about-info{
+        width: 20rem;
+    }
+    .about-img{
+        margin-right: 20px;
+    }
+}
+
