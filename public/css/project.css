@@ -8,6 +8,11 @@
     transition: all .4s ease 0s;
     margin-left: 30px;
 }
+.project_card img{
+    height: 250px;
+    width: 350px;
+    object-fit: contain;
+}
 
 .project_card:hover {
     transform: scale(1.1);

@@ -1,9 +1,11 @@
 .nav-link{
     color: white;
+    padding: 3px 10px;
+
 }
 .nav-link:hover{
     background: rgb(83, 83, 249);
-    border-radius: 5px;
+    border-radius:6px;
     color: white;  
 }
 .mobile-ul li a{
