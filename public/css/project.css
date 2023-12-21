@@ -1,4 +1,7 @@
-
+.project-div{
+    display: flex;
+    justify-content: center;
+}
 .project_card {
     height: auto;
     border: 1.7px solid rgb(33, 36, 223);
