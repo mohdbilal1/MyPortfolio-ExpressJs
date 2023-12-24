@@ -1,50 +1,64 @@
-.nav-link{
-    color: white;
-    padding: 3px 10px;
+.nav-class {
+  background-color: #333333 !important;
+  height: auto !important;
+  width: 100% !important;
+  color: #FFE77A !important;
+}
+
+.nav-link {
+  color: #FFE77A !important;
+
+  padding: 3px 10px;
 
 }
-.nav-link:hover{
-    background: rgb(83, 83, 249);
-    border-radius:6px;
-    color: white;  
+
+.nav-link:hover {
+  background: #FFE77A;
+  border-radius: 6px;
+  color: black !important;
+
 }
-.mobile-ul li a{
+
+.mobile-ul li a {
   text-decoration: none;
 }
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .navlist{
-        padding-left: 15px;
-    }
+  .navlist {
+    padding-left: 15px;
   }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  /* @media only screen and (min-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
    
   } */
-  
-  /* Medium devices (landscape tablets, 768px and down) */
-  @media only screen and (max-width: 768px) {
-    .navlist{
-        padding-left: 30px;
-    }
-  } 
-  
-  /* Large devices (laptops/desktops, 992px and down) */
-  @media only screen and (max-width: 992px) {
-    .navlist{
-        padding-left: 50px;
-    }
-  } 
-  
-  /* (small and up) */
-  @media only screen and (min-width: 600px) {
-    .nav-class {background-color: white;}
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+  .navlist {
+    padding-left: 30px;
   }
-  @media only screen and (max-width: 600px) {
-    .nav-class{
-      display:none
-    }
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  .navlist {
+    padding-left: 50px;
   }
+}
+
+/* (small and up) */
+@media only screen and (min-width: 600px) {
+  .nav-class {
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-class {
+    display: none
+  }
+}
